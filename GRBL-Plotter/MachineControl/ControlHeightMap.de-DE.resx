@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Kantenlänge</value>
+  </data>
+  <data name="btnPosUR.Text" xml:space="preserve">
+    <value>Aktuelle Pos.</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnPosUR.ToolTip" xml:space="preserve">
+    <value>Holen Sie sich die aktuelle Maschinenposition und stellen Sie die Koordinaten oben rechts ein</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="btnPosLL.Text" xml:space="preserve">
+    <value>Aktuelle Pos.</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnPosLL.ToolTip" xml:space="preserve">
+    <value>Holen Sie sich die aktuelle Maschinenposition und stellen Sie die Koordinaten links unten ein</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Oben rechts</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Unten links</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Gebiet des Höhenprofils</value>
+    <comment>GroupBox</comment>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Sondieren</value>
+    <comment>GroupBox</comment>
+  </data>
+  <data name="btnOffset.Text" xml:space="preserve">
+    <value>Setze max. Wert = 0</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnOffset.ToolTip" xml:space="preserve">
+    <value>Entferne Offset von allen Z Werten</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Sichere Höhe</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Max. Tiefe</value>
+  </data>
+  <data name="btnStartHeightScan.Text" xml:space="preserve">
+    <value>Scanne Höhenprofil</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnStartHeightScan.ToolTip" xml:space="preserve">
+    <value>Sende Befehle um Höhenprofil einzulesen</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Höhenprofil speichern</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnLoad.Text" xml:space="preserve">
+    <value>Höhenprofil laden</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Höhenprofil anwenden</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnApply.ToolTip" xml:space="preserve">
+    <value>Auto leveling: Höhenprofil auf G-Code anwenden</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="loadHeightMapToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lade Höhenprofil</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="saveHeightMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="saveHeightMapToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichere Höhenprofil</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="savePictureAsBMPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="savePictureAsBMPToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichere Bild als BMP</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="saveMapAsSTLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="saveMapAsSTLToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichere Höhenprofil als STL</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="saveMapAsX3DToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="saveMapAsX3DToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichere Höhenprofil als X3D</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Ergebnis</value>
+    <comment>GroupBox</comment>
+  </data>
+  <data name="cBGray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="cBGray.Text" xml:space="preserve">
+    <value>Grauwert</value>
+    <comment>CheckBox</comment>
+  </data>
+  <data name="cBGray.ToolTip" xml:space="preserve">
+    <value>Zeigen Sie das Ergebnisbild in Graustufen an, um es als Höhenkartenbild zu verwenden</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="btnOffsetZ.ToolTip" xml:space="preserve">
+    <value>Addiere gegebenen Offset zu allen Z Werten</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="btnZoomZ.ToolTip" xml:space="preserve">
+    <value>Multipliziere alle Z Werte mit gegebenen Wert</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="btnInvertZ.Text" xml:space="preserve">
+    <value>Invertiere Z</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnInvertZ.ToolTip" xml:space="preserve">
+    <value>Invertiere Z Werte (Vorzeichen wird von '+' auf '-' geändert und umgekehrt)</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="btnCutOffZ.Text" xml:space="preserve">
+    <value>Z Cut off</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnCutOffZ.ToolTip" xml:space="preserve">
+    <value>Setze alle Z Werte kleiner dem gegeben Wert auf diesen Wert. 
+Achtung, das Höhenprofil sollte vorher gespeichert werden!</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="btnGCode.Text" xml:space="preserve">
+    <value>Generiere G-Code</value>
+    <comment>Button</comment>
+  </data>
+  <data name="btnGCode.ToolTip" xml:space="preserve">
+    <value>Generiere G-Code um Höhenprofil abzufahren</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Höhenprofil einlesen</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Gittergröße X und Y</value>
+  </data>
+</root>
