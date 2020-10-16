@@ -59,6 +59,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Win32;
 using GRBL_Plotter.GUI;
+using System.Threading.Tasks;
 
 namespace GRBL_Plotter
 {
@@ -1465,7 +1466,17 @@ namespace GRBL_Plotter
         {
             Button clickedButton = sender as Button;
             int index = Convert.ToUInt16(clickedButton.Name.Substring("btnCustom".Length));
-            processCommands(btnCustomCommand[index]);
+            //CODE ISP//
+            if (index == 8)
+            {
+                processCommands(btnCustomCommand[3]);
+                Task.Delay(1000).ContinueWith(t => processCommands(btnCustomCommand[4]));
+            }
+            //FIN//
+            else
+            {
+                processCommands(btnCustomCommand[index]);
+            }
         }
 
 
@@ -1772,7 +1783,8 @@ namespace GRBL_Plotter
 
 
         private void processCommands(string command)
-        { if (command.Length <= 1)
+        { 
+            if (command.Length <= 1)
                 return;
             string[] commands;
             //            Logger.Trace("processCommands");
