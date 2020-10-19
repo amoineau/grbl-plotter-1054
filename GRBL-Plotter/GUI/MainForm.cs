@@ -1470,7 +1470,7 @@ namespace GRBL_Plotter
             if (index == 8)
             {
                 processCommands(btnCustomCommand[3]);
-                Task.Delay(1000).ContinueWith(t => processCommands(btnCustomCommand[4]));
+                Task.Delay(500).ContinueWith(t => processCommands(btnCustomCommand[4]));
             }
             //FIN//
             else
