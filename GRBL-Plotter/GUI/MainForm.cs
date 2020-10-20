@@ -111,6 +111,10 @@ namespace GRBL_Plotter
         private static bool logEnable = false;
         private static bool logDetailed = false;
 
+        //CODE ISP//
+        private const int pulseDelay = 500;  //durée du pulse laser en ms
+        //END//
+
         public MainForm()
         {
             Logger.Info("++++++ GRBL-Plotter Ver. {0} START ++++++", Application.ProductVersion);
@@ -1470,7 +1474,7 @@ namespace GRBL_Plotter
             if (index == 8)
             {
                 processCommands(btnCustomCommand[3]);
-                Task.Delay(500).ContinueWith(t => processCommands(btnCustomCommand[4]));
+                Task.Delay(pulseDelay).ContinueWith(t => processCommands(btnCustomCommand[4]));
             }
             //FIN//
             else
